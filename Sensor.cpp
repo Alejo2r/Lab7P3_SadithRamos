@@ -7,6 +7,14 @@ Sensor::Sensor(string tipo) {
 
 Sensor::~Sensor() {}
 
-string Sensor::getTipo() const { return tipo; }
-int Sensor::getSensibilidad() const { return sensibilidad; }
-void Sensor::setSensibilidad(int s) { this->sensibilidad = s; }
+string Sensor::getTipo() const { 
+    return tipo;
+}
+
+int Sensor::getSensibilidad() const {
+    return sensibilidad; 
+}
+
+void Sensor::setSensibilidad(int s) { 
+    this->sensibilidad = s; 
+}
